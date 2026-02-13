@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.4.1</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>io.github.chitralabs.sheetz</groupId>
+    <artifactId>sheetz-spring-boot-starter</artifactId>
+    <version>1.0.1</version>
+    <packaging>jar</packaging>
+
+    <name>Sheetz Spring Boot Starter</name>
+    <description>Spring Boot auto-configuration for Sheetz — Excel and CSV processing with zero config.</description>
+    <url>https://github.com/chitralabs/sheetz-spring-boot-starter</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>chitrapradha</id>
+            <name>Chitrapradha G</name>
+            <email>chitracrmlabs@gmail.com</email>
+            <url>https://github.com/chitralabs</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/chitralabs/sheetz-spring-boot-starter.git</connection>
+        <developerConnection>scm:git:ssh://github.com:chitralabs/sheetz-spring-boot-starter.git</developerConnection>
+        <url>https://github.com/chitralabs/sheetz-spring-boot-starter</url>
+    </scm>
+
+    <properties>
+        <java.version>17</java.version>
+        <sheetz.version>1.0.1</sheetz.version>
+    </properties>
+
+    <dependencies>
+        <!-- Sheetz core library -->
+        <dependency>
+            <groupId>io.github.chitralabs.sheetz</groupId>
+            <artifactId>sheetz-core</artifactId>
+            <version>${sheetz.version}</version>
+        </dependency>
+
+        <!-- Spring Boot -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- Configuration metadata for IDE support -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- Test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
