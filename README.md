@@ -1,5 +1,6 @@
 # Sheetz Spring Boot Starter — Auto-Configure Excel & CSV Processing in Spring Boot
 
+[![Build](https://github.com/chitralabs/sheetz-spring-boot-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/chitralabs/sheetz-spring-boot-starter/actions/workflows/ci.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.chitralabs.sheetz/sheetz-core)](https://central.sonatype.com/artifact/io.github.chitralabs.sheetz/sheetz-core)
 [![Java 11+](https://img.shields.io/badge/Java-11%2B-blue.svg)](https://openjdk.java.net/)
 [![Spring Boot 2.7+](https://img.shields.io/badge/Spring%20Boot-2.7%2B-brightgreen.svg)](https://spring.io/projects/spring-boot)
