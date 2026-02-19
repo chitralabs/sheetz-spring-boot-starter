@@ -33,19 +33,19 @@ No manual configuration required. Add the dependency, and it works.
 <dependency>
     <groupId>io.github.chitralabs.sheetz</groupId>
     <artifactId>sheetz-spring-boot-starter</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 <dependency>
     <groupId>io.github.chitralabs.sheetz</groupId>
     <artifactId>sheetz-core</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
 **Gradle:**
 ```groovy
-implementation 'io.github.chitralabs.sheetz:sheetz-spring-boot-starter:1.0.1'
-implementation 'io.github.chitralabs.sheetz:sheetz-core:1.0.1'
+implementation 'io.github.chitralabs.sheetz:sheetz-spring-boot-starter:1.0.2'
+implementation 'io.github.chitralabs.sheetz:sheetz-core:1.0.2'
 ```
 
 ### 2. Inject and Use
@@ -242,7 +242,7 @@ public class SheetzConfig {
 
 - Java 11+
 - Spring Boot 2.7+ (also compatible with Spring Boot 3.x)
-- [sheetz-core](https://central.sonatype.com/artifact/io.github.chitralabs.sheetz/sheetz-core) 1.0.1
+- [sheetz-core](https://central.sonatype.com/artifact/io.github.chitralabs.sheetz/sheetz-core) 1.0.2
 
 ## Links
 

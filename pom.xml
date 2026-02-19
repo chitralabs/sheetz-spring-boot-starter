@@ -13,7 +13,7 @@
 
     <groupId>io.github.chitralabs.sheetz</groupId>
     <artifactId>sheetz-spring-boot-starter</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <name>Sheetz Spring Boot Starter</name>
@@ -57,7 +57,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <sheetz.version>1.0.1</sheetz.version>
+        <sheetz.version>1.0.2</sheetz.version>
     </properties>
 
     <dependencies>
