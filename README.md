@@ -7,6 +7,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/chitralabs/sheetz?style=social)](https://github.com/chitralabs/sheetz)
 
+📚 **[Full Documentation](https://chitralabs.github.io/sheetz/)** | 🔄 [Migration from POI](https://chitralabs.github.io/sheetz/migration-from-poi) | 📊 [Benchmarks](https://chitralabs.github.io/sheetz/benchmarks)
+
 Spring Boot auto-configuration for [Sheetz](https://github.com/chitralabs/sheetz) — inject a `SheetzTemplate` bean and read/write Excel and CSV files with zero boilerplate.
 
 ```java
